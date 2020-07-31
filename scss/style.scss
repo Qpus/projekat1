@@ -1,0 +1,173 @@
+body{
+    background-image: url(../img/kontrakviz.png);
+    background-repeat: no-repeat;
+
+    .container-fluid {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+
+        .navbar{
+            top: 10px;
+            
+            .nav-item{
+                    padding: 0 5px;
+
+                    .nav-link{
+                        &:hover{
+                            color: #d9534f;
+                        }
+                    }
+                }
+            .socialIcons{
+                padding: 0 25px;
+            }
+        }
+        #home{
+            top: 80px;
+
+            .nowPlaying{
+                color: #fff;
+                .coverImg{
+                    width: 200px;
+                }
+                .coverName{
+                    color: #fff;
+                    padding-left: 25px;
+                }
+            }
+            .listOfSongs{
+                width: 300px;
+                color: #fff;
+                .card-img{
+                    width: 100px;
+                }
+
+                .card-body{
+                    font-size: 10px;
+                    height: 100px;
+                    color: #000;
+                    .card-text{
+                        padding: 0
+                    }
+                }
+            }
+
+        }
+
+        #program{
+            position: absolute;
+            top: 80px;
+            left: 85px;
+            color: white;
+
+            .nav{
+
+            }
+            /*            .card{
+                            top: 80px;
+                            left: 85px;
+                            margin: 5px;
+                            
+                            .timeLine{
+                                font-size: 12px;
+                            }
+                        }
+                        
+                        .secondRow{
+                            margin-left: 150px;
+                        }*/
+        }
+        #contact{
+            top: 90px;
+            color: #fff;
+        }
+        /*        .carousel{
+                    width: 100%;
+                    height: auto;
+        
+                    .emisije{
+                        position: relative;
+                        top: 150px;
+                        left: 150px;
+        
+                        .card{
+                            position: relative;
+                            margin: 0 30px 0 30px;
+                            width: 18rem; 
+                            display: inline-block;
+                            
+                            .card-body{
+                                position: relative;
+                            }
+                        }
+                    }
+                    .contactForm{
+                        position: relative;
+                        top: 150px;
+                        left: 30px;
+        
+                        form{
+                            color: #fff;
+        
+                            .form-group{
+                                padding-top: 25px;
+                            }
+                        }
+                    }
+                }*/
+        #playList{
+            padding: 0;
+            position: absolute;
+            top: 0;
+            z-index: 1;
+            tr{
+                cursor: pointer;
+                th{
+                    padding: 12px 30px;
+                }
+            }
+
+        }
+        .hidden{
+            display: none;
+        }
+
+
+
+        .player{
+            overflow: hidden;
+            position: fixed;
+            bottom: 0px;
+            z-index: 1;
+            a{
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 10px 15px;
+                text-decoration: none;
+                font-size: 10px;
+
+                .fas{
+                    font-size: 25px;
+                }
+
+                .floatRight{
+                    z-index: 10;  
+                    position: absolute;  
+                    right: 0;  
+                    top: 0;
+
+                }
+            }
+            .progress{
+                margin: 15px 0;
+            }
+            audio{
+                display: none;
+            }
+        }
+    }
+}
+hidden{
+    display: none;
+}

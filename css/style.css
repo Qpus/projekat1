@@ -1,0 +1,128 @@
+body {
+  background-image: url(../img/kontrakviz.png);
+  background-repeat: no-repeat; }
+  body .container-fluid {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /*        .carousel{
+                width: 100%;
+                height: auto;
+    
+                .emisije{
+                    position: relative;
+                    top: 150px;
+                    left: 150px;
+    
+                    .card{
+                        position: relative;
+                        margin: 0 30px 0 30px;
+                        width: 18rem; 
+                        display: inline-block;
+                        
+                        .card-body{
+                            position: relative;
+                        }
+                    }
+                }
+                .contactForm{
+                    position: relative;
+                    top: 150px;
+                    left: 30px;
+    
+                    form{
+                        color: #fff;
+    
+                        .form-group{
+                            padding-top: 25px;
+                        }
+                    }
+                }
+            }*/ }
+    body .container-fluid .navbar {
+      top: 10px; }
+      body .container-fluid .navbar .nav-item {
+        padding: 0 5px; }
+        body .container-fluid .navbar .nav-item .nav-link:hover {
+          color: #d9534f; }
+      body .container-fluid .navbar .socialIcons {
+        padding: 0 25px; }
+    body .container-fluid #home {
+      top: 80px; }
+      body .container-fluid #home .nowPlaying {
+        color: #fff; }
+        body .container-fluid #home .nowPlaying .coverImg {
+          width: 200px; }
+        body .container-fluid #home .nowPlaying .coverName {
+          color: #fff;
+          padding-left: 25px; }
+      body .container-fluid #home .listOfSongs {
+        width: 300px;
+        color: #fff; }
+        body .container-fluid #home .listOfSongs .card-img {
+          width: 100px; }
+        body .container-fluid #home .listOfSongs .card-body {
+          font-size: 10px;
+          height: 100px;
+          color: #000; }
+          body .container-fluid #home .listOfSongs .card-body .card-text {
+            padding: 0; }
+    body .container-fluid #program {
+      position: absolute;
+      top: 80px;
+      left: 85px;
+      color: white;
+      /*            .card{
+                      top: 80px;
+                      left: 85px;
+                      margin: 5px;
+                      
+                      .timeLine{
+                          font-size: 12px;
+                      }
+                  }
+                  
+                  .secondRow{
+                      margin-left: 150px;
+                  }*/ }
+    body .container-fluid #contact {
+      top: 90px;
+      color: #fff; }
+    body .container-fluid #playList {
+      padding: 0;
+      position: absolute;
+      top: 0;
+      z-index: 1; }
+      body .container-fluid #playList tr {
+        cursor: pointer; }
+        body .container-fluid #playList tr th {
+          padding: 12px 30px; }
+    body .container-fluid .hidden {
+      display: none; }
+    body .container-fluid .player {
+      overflow: hidden;
+      position: fixed;
+      bottom: 0px;
+      z-index: 1; }
+      body .container-fluid .player a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 10px; }
+        body .container-fluid .player a .fas {
+          font-size: 25px; }
+        body .container-fluid .player a .floatRight {
+          z-index: 10;
+          position: absolute;
+          right: 0;
+          top: 0; }
+      body .container-fluid .player .progress {
+        margin: 15px 0; }
+      body .container-fluid .player audio {
+        display: none; }
+
+hidden {
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */
